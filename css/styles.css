@@ -7,7 +7,15 @@ body{
  }
 
  a{
-    color:#EAE7B1;   
+    color:#EAE7B1;  
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 1%; 
+ }
+
+ a:hover{
+    color:#1c3029;  
  }
 
 h1{
@@ -37,12 +45,6 @@ h3{
 
 p{
     line-height: 2.5;
-}
-
-a{
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 
 /****************************************************CLASS SELECTORS********************************************************/
@@ -138,15 +140,6 @@ a{
     margin: auto;
   }
 
-  .footer-link1{
-    position: relative;
-    right:1%;
-  }
-
-  .footer-link2{
-    position: relative;
-    left:1%;
-  }
 /******************************************************ID SELECTORS*********************************************************/
 #cloud2{
     position:absolute;
